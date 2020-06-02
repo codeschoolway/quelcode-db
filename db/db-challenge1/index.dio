@@ -1,4 +1,4 @@
-<mxfile host="" modified="2020-06-02T02:13:06.330Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.1 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" etag="LfiiHfBsnAb5auk07S8V" version="13.1.3">
+<mxfile host="" modified="2020-06-02T05:02:22.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.1 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" etag="nhoHPdmJV-XcNzHJp1JA" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
         <mxGraphModel dx="1191" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
@@ -31,16 +31,16 @@
                 <mxCell id="136" value="論理削除" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="130" vertex="1">
                     <mxGeometry y="178" width="140" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="232" value="作成日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="130">
+                <mxCell id="232" value="作成日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="130" vertex="1">
                     <mxGeometry y="204" width="140" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="233" value="作成者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="130">
+                <mxCell id="233" value="作成者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="130" vertex="1">
                     <mxGeometry y="230" width="140" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="234" value="更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="130">
+                <mxCell id="234" value="更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="130" vertex="1">
                     <mxGeometry y="256" width="140" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="235" value="更新者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="130">
+                <mxCell id="235" value="更新者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="130" vertex="1">
                     <mxGeometry y="282" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="142" value="チャットルームID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;shadow=0;glass=0;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
@@ -67,10 +67,10 @@
                 <mxCell id="188" value="作成者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="142" vertex="1">
                     <mxGeometry y="178" width="160" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="237" value="更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="142">
+                <mxCell id="237" value="更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="142" vertex="1">
                     <mxGeometry y="204" width="160" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="238" value="更新者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="142">
+                <mxCell id="238" value="更新者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="142" vertex="1">
                     <mxGeometry y="230" width="160" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="214" value="ユーザーID&#10;チャットルームID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;fontSize=14;rounded=0;shadow=0;glass=0;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
@@ -89,7 +89,7 @@
                     <mxGeometry x="667" y="13" width="140" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="180" value="投稿ID" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;shadow=0;glass=0;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="667" y="40" width="153" height="178" as="geometry"/>
+                    <mxGeometry x="667" y="40" width="153" height="230" as="geometry"/>
                 </mxCell>
                 <mxCell id="181" value="投稿内容" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="180" vertex="1">
                     <mxGeometry y="22" width="153" height="26" as="geometry"/>
@@ -103,11 +103,17 @@
                 <mxCell id="186" value="作成日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="180" vertex="1">
                     <mxGeometry y="100" width="153" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="189" value="更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="180" vertex="1">
+                <mxCell id="243" value="作成者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="180">
                     <mxGeometry y="126" width="153" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="227" value="チャットルームID（FK）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="180" vertex="1">
+                <mxCell id="189" value="更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="180" vertex="1">
                     <mxGeometry y="152" width="153" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" value="更新者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="180">
+                    <mxGeometry y="178" width="153" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="チャットルームID（FK）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="180" vertex="1">
+                    <mxGeometry y="204" width="153" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="222" value="参加ルーム" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="220" y="13.5" width="140" height="20" as="geometry"/>
@@ -157,16 +163,16 @@
                 <mxCell id="157" value="論理削除" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="152" vertex="1">
                     <mxGeometry y="126" width="160" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="239" value="作成日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="152">
+                <mxCell id="239" value="作成日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="152" vertex="1">
                     <mxGeometry y="152" width="160" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="240" value="作成者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="152">
+                <mxCell id="240" value="作成者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="152" vertex="1">
                     <mxGeometry y="178" width="160" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="241" value="更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="152">
+                <mxCell id="241" value="更新日時" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="152" vertex="1">
                     <mxGeometry y="204" width="160" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="242" value="更新者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="152">
+                <mxCell id="242" value="更新者" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="152" vertex="1">
                     <mxGeometry y="230" width="160" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="230" value="チャットルームID（FK）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="152" vertex="1">
