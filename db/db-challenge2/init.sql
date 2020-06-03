@@ -8,15 +8,14 @@ CREATE TABLE `users` (
       `cell_phone` varchar(13),
       `is_deleted` tinyint(1) NOT NULL DEFAULT 0,
       `created_at` datetime NOT NULL,
-      `create_user_id` int(11) NOT NULL,
       `updated_at` datetime NOT NULL,
-      `update_user_id` int(11) NOT NULL,
       PRIMARY KEY (`user_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
 CREATE TABLE `join_table` (
       `user_id` int(11) NOT NULL,
       `chat_room_id` int(11) NOT NULL,
+      `join_date` datetime NOT NULL,
       PRIMARY KEY (`user_id`, `chat_room_id`)
 ) ENGINE=MyISAM;
 
