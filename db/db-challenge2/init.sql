@@ -17,7 +17,7 @@ CREATE TABLE `join_table` (
       `chat_room_id` int(11) NOT NULL,
       `join_date` datetime NOT NULL,
       PRIMARY KEY (`user_id`, `chat_room_id`)
-) ENGINE=MyISAM;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 CREATE TABLE `chat_rooms` (
       `chat_room_id` int(11) NOT NULL AUTO_INCREMENT,
