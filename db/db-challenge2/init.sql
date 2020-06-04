@@ -30,7 +30,9 @@ CREATE TABLE `chat_rooms` (
       `create_user_id` int(11) NOT NULL,
       `updated_at` datetime NOT NULL,
       `update_user_id` int(11) NOT NULL,
-      PRIMARY KEY (`chat_room_id`)
+      PRIMARY KEY (`chat_room_id`),
+      FOREIGN KEY (`create_user_id`) REFERENCES users(`user_id`),
+      FOREIGN KEY (`update_user_id`) REFERENCES users(`user_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
 CREATE TABLE `posts` (
@@ -44,7 +46,9 @@ CREATE TABLE `posts` (
       `update_user_id` int(11) NOT NULL,
       `chat_room_id` int(11) NOT NULL,
       PRIMARY KEY (`post_id`),
-      FOREIGN KEY (`chat_room_id`) REFERENCES chat_rooms(`chat_room_id`)
+      FOREIGN KEY (`chat_room_id`) REFERENCES chat_rooms(`chat_room_id`),
+      FOREIGN KEY (`create_user_id`) REFERENCES users(`user_id`),
+      FOREIGN KEY (`update_user_id`) REFERENCES users(`user_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
 CREATE TABLE `tasks` (
@@ -60,5 +64,7 @@ CREATE TABLE `tasks` (
       `update_user_id` int(11) NOT NULL,
       `chat_room_id` int(11) NOT NULL,
       PRIMARY KEY (`task_id`),
-      FOREIGN KEY (`chat_room_id`) REFERENCES chat_rooms(`chat_room_id`)
+      FOREIGN KEY (`chat_room_id`) REFERENCES chat_rooms(`chat_room_id`),
+      FOREIGN KEY (`create_user_id`) REFERENCES users(`user_id`),
+      FOREIGN KEY (`update_user_id`) REFERENCES users(`user_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
