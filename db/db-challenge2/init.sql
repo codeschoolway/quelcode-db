@@ -24,7 +24,7 @@ CREATE TABLE `chat_rooms` (
       `chat_name` varchar(100) NOT NULL,
       `chat_description` varchar(1000),
       `allowed_to_send` tinyint(1) DEFAULT 1,
-      `is_diret_chat` tinyint(1) DEFAULT 1,
+      `is_diret_chat` tinyint(1) DEFAULT 0,
       `is_deleted` tinyint(1) DEFAULT 0,
       `created_at` datetime NOT NULL,
       `create_user_id` int(11) NOT NULL,
