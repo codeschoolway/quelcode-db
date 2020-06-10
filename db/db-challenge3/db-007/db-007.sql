@@ -15,7 +15,7 @@ SELECT
 FROM
     chat_rooms
 WHERE
-    is_diret_chat = 1
+    chat_description LIKE '%ダイレクトチャット'
 AND is_deleted <> 1
 ORDER BY
     chat_room_id
