@@ -1,18 +1,20 @@
 SELECT
-    count(*) AS 投稿数,
-    (SELECT
-        chat_name
-    FROM
-        chat_rooms AS c
-    WHERE
-        p.chat_room_id = c.chat_room_id
-    AND c.is_deleted <> 1
-    ) AS チャットルーム名
+    COUNT(posts.post_id) AS 投稿数,
+    chat_rooms.chat_name
 FROM
-    posts AS p
+    posts
+    LEFT JOIN
+        chat_rooms
+    ON  posts.chat_room_id = chat_rooms.chat_room_id
+    LEFT JOIN
+        users
+    ON posts.create_user_id = users.user_id
 WHERE
-    p.is_deleted <> 1
+    posts.is_deleted = 0
+AND    users.is_deleted = 0
+
 GROUP BY
-    chat_room_id
+    posts.chat_room_id,
+    chat_rooms.chat_name
 ORDER BY
     投稿数 DESC
