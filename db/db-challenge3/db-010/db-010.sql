@@ -1,31 +1,30 @@
 SELECT
-    (SELECT
-        user_name
-    FROM
-        users
-    WHERE
-        user_id = create_user_id
-    AND is_deleted <> 1
-    ) AS ユーザー名,
-    created_at AS 投稿日,
-    (SELECT
-        chat_name
-    FROM
-        chat_rooms
-    WHERE
-        chat_room_id = p.chat_room_id
-    AND is_deleted <> 1
-    ) AS チャットルーム名
+    users.user_name,
+    posts.created_at,
+    chat_rooms.chat_name
 FROM
-    posts AS p
+    posts
+    LEFT JOIN
+        chat_rooms
+    ON  posts.chat_room_id = chat_rooms.chat_room_id
+    LEFT JOIN
+        users
+    ON  posts.create_user_id = users.user_id
 WHERE
-    (chat_room_id, created_at) IN(
+    (posts.chat_room_id, posts.created_at) IN(
         SELECT
             chat_room_id,
-            MAX(created_at) AS created_at
+            MAX(posts.created_at) AS created_at
         FROM
             posts
+            LEFT JOIN
+                users
+            ON  posts.create_user_id = users.user_id
+        WHERE
+            posts.is_deleted = 0
+        AND users.is_deleted = 0
         GROUP BY
             chat_room_id
     )
-ORDER BY p.chat_room_id
+ORDER BY
+    chat_rooms.chat_room_id
