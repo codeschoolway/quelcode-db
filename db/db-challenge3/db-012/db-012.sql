@@ -6,7 +6,7 @@ SET
     update_user_id = 1,
     updated_at = NOW()
 WHERE
-    create_user_id
+    chat_room_id
     IN
     (
         SELECT
@@ -14,7 +14,7 @@ WHERE
         FROM
         join_table
         WHERE
-        chat_room_id IN (SELECT chat_room_id FROM join_table WHERE user_id <> 1)
+        chat_room_id NOT IN (SELECT chat_room_id FROM join_table WHERE user_id = 1)
     )
     AND
     is_deleted = 0;
